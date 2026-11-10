@@ -1,4 +1,4 @@
-package com.unjeonanbu.car.ui
+package com.drivingcheckin.car.ui
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.runtime.Composable

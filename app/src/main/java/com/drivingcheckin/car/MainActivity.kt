@@ -1,4 +1,4 @@
-package com.unjeonanbu.car
+package com.drivingcheckin.car
 
 import android.Manifest
 import android.content.pm.PackageManager
@@ -10,7 +10,7 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.unit.Density
-import com.unjeonanbu.car.ui.AnbuApp
+import com.drivingcheckin.car.ui.AnbuApp
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

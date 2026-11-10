@@ -1,4 +1,4 @@
-package com.unjeonanbu.car
+package com.drivingcheckin.car
 
 import android.app.Notification
 import android.app.NotificationChannel

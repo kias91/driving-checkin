@@ -1,4 +1,4 @@
-package com.unjeonanbu.car.data
+package com.drivingcheckin.car.data
 
 /**
  * 한 주 동안 차량 신호에서 집계한 값. 위치·경로는 담지 않는다.

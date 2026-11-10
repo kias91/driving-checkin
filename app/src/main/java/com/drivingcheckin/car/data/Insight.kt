@@ -1,4 +1,4 @@
-package com.unjeonanbu.car.data
+package com.drivingcheckin.car.data
 
 import kotlin.math.abs
 

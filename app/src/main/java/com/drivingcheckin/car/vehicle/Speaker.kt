@@ -1,4 +1,4 @@
-package com.unjeonanbu.car.vehicle
+package com.drivingcheckin.car.vehicle
 
 import ai.pleos.playground.tts.TextToSpeech
 import ai.pleos.playground.tts.constant.ErrorType
@@ -116,7 +116,7 @@ class Speaker(private val context: Context) {
     }
 
     companion object {
-        private const val TAG = "UnjeonAnbu"
+        private const val TAG = "DrivingCheckin"
         private const val PRE_ROLL_MS = 180L
     }
 }

@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.unjeonanbu.car"
+    namespace = "com.drivingcheckin.car"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.unjeonanbu.car"
+        applicationId = "com.drivingcheckin.car"
         minSdk = 28
         targetSdk = 34
         versionCode = 1

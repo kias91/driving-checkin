@@ -1,4 +1,4 @@
-package com.unjeonanbu.car.vehicle
+package com.drivingcheckin.car.vehicle
 
 import ai.pleos.playground.vehicle.Vehicle
 import ai.pleos.playground.vehicle.constant.area.TurnSignalValue
@@ -15,7 +15,7 @@ import android.car.drivingstate.CarUxRestrictionsManager
 import android.content.Context
 import android.os.SystemClock
 import android.util.Log
-import com.unjeonanbu.car.data.WeekStore
+import com.drivingcheckin.car.data.WeekStore
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
@@ -199,7 +199,7 @@ class Recorder(private val context: Context, private val store: WeekStore) {
     }
 
     companion object {
-        private const val TAG = "UnjeonAnbu"
+        private const val TAG = "DrivingCheckin"
         private const val FLUSH_INTERVAL_MS = 15_000L
     }
 }

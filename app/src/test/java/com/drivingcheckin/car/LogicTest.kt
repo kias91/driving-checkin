@@ -1,11 +1,11 @@
-package com.unjeonanbu.car
+package com.drivingcheckin.car
 
-import com.unjeonanbu.car.data.DemoData
-import com.unjeonanbu.car.data.Insight
-import com.unjeonanbu.car.data.Metric
-import com.unjeonanbu.car.data.WeekRecord
-import com.unjeonanbu.car.data.WeekStore
-import com.unjeonanbu.car.vehicle.TripAggregator
+import com.drivingcheckin.car.data.DemoData
+import com.drivingcheckin.car.data.Insight
+import com.drivingcheckin.car.data.Metric
+import com.drivingcheckin.car.data.WeekRecord
+import com.drivingcheckin.car.data.WeekStore
+import com.drivingcheckin.car.vehicle.TripAggregator
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertNull

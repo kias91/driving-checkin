@@ -1,10 +1,10 @@
-# 운전 안부
+# 운전 안부 (Driving Check-in)
 
 부모님 차의 깜빡이·브레이크·전조등 신호를 몇 달 치 추세로 모아, 부모님이 먼저 확인한 뒤 자녀와 나누는 고령 운전 안부 앱입니다.
 
 현대자동차그룹 차량용 앱 개발 공모전 제출용 시제품(Pleos Connect 차량 앱)입니다.
 
-- **APK:** [`apk/unjeon-anbu-0.1.0.apk`](apk/unjeon-anbu-0.1.0.apk)
+- **APK:** [`apk/driving-checkin-0.1.0.apk`](apk/driving-checkin-0.1.0.apk)
 - **시연 영상(에뮬레이터 녹화, 2분 9초, 무음):** [`docs/demo.mp4`](docs/demo.mp4)
 
 | 이번 주 | 추세 |
@@ -43,7 +43,7 @@
 | Vehicle SDK | `ai.pleos.playground:Vehicle:2.3.2` |
 | TextToSpeech SDK | `ai.pleos.playground:TextToSpeech:3.3.1` |
 | 빌드 | Android Gradle Plugin 8.9.1, Gradle 8.13, Kotlin 2.0.21, JDK 17 이상 |
-| 앱 | minSdk 28, targetSdk 34, 패키지 `com.unjeonanbu.car` |
+| 앱 | minSdk 28, targetSdk 34, 패키지 `com.drivingcheckin.car` |
 
 Pleos 개발자 계정이나 앱 키 없이 동작합니다. SDK는 공개 Maven 저장소(`https://nexus-playground.pleos.ai/repository/maven-releases/`)에서 받습니다.
 
@@ -56,7 +56,7 @@ Pleos 공식 문서의 안내대로 Android Studio의 SDK Manager에 Pleos Conne
 ### 2. 앱 설치
 
 ```sh
-adb install -r apk/unjeon-anbu-0.1.0.apk
+adb install -r apk/driving-checkin-0.1.0.apk
 ```
 
 에뮬레이터의 앱 목록에서 "운전 안부"를 엽니다. 소스에서 빌드하려면 `./gradlew assembleDebug`를 실행합니다.
@@ -102,7 +102,7 @@ PC 브라우저에서 `http://127.0.0.1:8088/`(Pleos Virtual Console)을 열고 
 ## 코드 구조
 
 ```
-app/src/main/java/com/unjeonanbu/car/
+app/src/main/java/com/drivingcheckin/car/
   vehicle/Recorder.kt        Pleos Vehicle SDK 리스너 등록, 주간 기록 저장
   vehicle/TripAggregator.kt  신호 변화를 지표 증가분으로 바꾸는 순수 로직
   vehicle/Speaker.kt         Pleos TextToSpeech 재생

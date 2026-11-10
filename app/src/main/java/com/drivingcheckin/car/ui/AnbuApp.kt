@@ -1,4 +1,4 @@
-package com.unjeonanbu.car.ui
+package com.drivingcheckin.car.ui
 
 import android.content.Context
 import androidx.compose.foundation.background
@@ -38,14 +38,14 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.unjeonanbu.car.App
-import com.unjeonanbu.car.data.Insight
-import com.unjeonanbu.car.data.Metric
-import com.unjeonanbu.car.data.ShareSettings
-import com.unjeonanbu.car.data.Trend
-import com.unjeonanbu.car.data.WeekRecord
-import com.unjeonanbu.car.data.WeekStore
-import com.unjeonanbu.car.vehicle.Signal
+import com.drivingcheckin.car.App
+import com.drivingcheckin.car.data.Insight
+import com.drivingcheckin.car.data.Metric
+import com.drivingcheckin.car.data.ShareSettings
+import com.drivingcheckin.car.data.Trend
+import com.drivingcheckin.car.data.WeekRecord
+import com.drivingcheckin.car.data.WeekStore
+import com.drivingcheckin.car.vehicle.Signal
 import java.text.SimpleDateFormat
 import java.time.LocalDate
 import java.util.Date

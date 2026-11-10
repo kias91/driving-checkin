@@ -1,9 +1,9 @@
-package com.unjeonanbu.car
+package com.drivingcheckin.car
 
 import android.app.Application
-import com.unjeonanbu.car.data.WeekStore
-import com.unjeonanbu.car.vehicle.Recorder
-import com.unjeonanbu.car.vehicle.Speaker
+import com.drivingcheckin.car.data.WeekStore
+import com.drivingcheckin.car.vehicle.Recorder
+import com.drivingcheckin.car.vehicle.Speaker
 
 class App : Application() {
     lateinit var store: WeekStore; private set
