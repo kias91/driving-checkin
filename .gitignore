@@ -7,3 +7,11 @@ local.properties
 .kotlin/
 *.jks
 *.keystore
+
+# 숏폼 제작 소스(음성·배경음·실사 클립·캡쳐·요청문·편집본). 저장소에 올리지 않는다.
+docs/media/
+docs/music/
+docs/short_img/
+docs/sound/
+docs/shortform/
+docs/*숏폼*.mp4
